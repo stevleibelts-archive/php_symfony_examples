@@ -1,0 +1,26 @@
+{
+    "name": "net_bazzline/symfony_examples",
+    "type": "examples",
+    "description": "examples of php symfony framework",
+    "keywords": ["php", "net_bazzline", "symfony framewokr", "symfony", "framework", "example"],
+    "homepage": "https://github.com/stevleibelt/php_component_proxy_logger",
+    "license": "LGPLv3",
+    "authors": [
+	    {
+            "name": "Stev Leibelt",
+            "email": "artodeto@arcor.de",
+            "homepage": "http://artodeto.bazzline.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "2.4.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Example\\": "examples/"
+        }
+    }
+}
